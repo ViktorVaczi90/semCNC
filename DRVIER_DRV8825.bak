@@ -34,7 +34,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 2 5
 Title ""
 Date ""
 Rev ""
@@ -69,7 +69,7 @@ AR Path="/56024A8C/560153B8" Ref="P15"  Part="1"
 AR Path="/56024B67/560153B8" Ref="P18"  Part="1" 
 F 0 "P18" H 8800 4000 50  0000 C CNN
 F 1 "CONN_02X08" V 8800 3550 50  0000 C CNN
-F 2 "Buttons_Switches_ThroughHole:SW_DIP_x8_Slide" H 8800 2350 60  0000 C CNN
+F 2 "libs:SW_DIP_x8_Slide_changed_numbering" H 8800 2350 60  0000 C CNN
 F 3 "" H 8800 2350 60  0000 C CNN
 	1    8800 3550
 	1    0    0    -1  
@@ -417,7 +417,7 @@ AR Path="/56024A8C/5601C076" Ref="R44"  Part="1"
 AR Path="/56024B67/5601C076" Ref="R56"  Part="1" 
 F 0 "R56" V 4930 4050 50  0000 C CNN
 F 1 "200m" V 4850 4050 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 4780 4050 30  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4780 4050 30  0001 C CNN
 F 3 "" H 4850 4050 30  0000 C CNN
 	1    4850 4050
 	0    1    1    0   
@@ -432,7 +432,7 @@ AR Path="/56024A8C/5601C0DF" Ref="R43"  Part="1"
 AR Path="/56024B67/5601C0DF" Ref="R55"  Part="1" 
 F 0 "R55" V 4930 3750 50  0000 C CNN
 F 1 "200m" V 4850 3750 50  0000 C CNN
-F 2 "Resistors_ThroughHole:Resistor_Ceramic_Horizontal_L23mm-W9mm-H9mm-p30mm" V 4780 3750 30  0001 C CNN
+F 2 "Resistors_ThroughHole:Resistor_Horizontal_RM15mm" V 4780 3750 30  0001 C CNN
 F 3 "" H 4850 3750 30  0000 C CNN
 	1    4850 3750
 	0    1    1    0   
