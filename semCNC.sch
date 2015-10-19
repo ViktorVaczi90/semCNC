@@ -28,6 +28,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:mylib
 LIBS:semCNC-cache
 EELAYER 25 0
 EELAYER END
@@ -334,9 +335,9 @@ F 3 "" H 950 4250 60  0000 C CNN
 $EndComp
 Text Label 5850 3950 0    60   ~ 0
 IREF4
-Text Label 5850 3200 0    60   ~ 0
-IREF3
 Text Label 5850 2450 0    60   ~ 0
+IREF3
+Text Label 5850 3200 0    60   ~ 0
 IREF2
 Text Label 5850 1650 0    60   ~ 0
 IREF1
@@ -354,17 +355,17 @@ Text Label 5850 3850 0    60   ~ 0
 DIR4
 Text Label 5850 3750 0    60   ~ 0
 STEP4
-Text Label 5850 3300 0    60   ~ 0
-nFAULT3
-Text Label 5850 3100 0    60   ~ 0
-DIR3
-Text Label 5850 3000 0    60   ~ 0
-STEP3
 Text Label 5850 2550 0    60   ~ 0
-nFAULT2
+nFAULT3
 Text Label 5850 2350 0    60   ~ 0
-DIR2
+DIR3
 Text Label 5850 2250 0    60   ~ 0
+STEP3
+Text Label 5850 3300 0    60   ~ 0
+nFAULT2
+Text Label 5850 3100 0    60   ~ 0
+DIR2
+Text Label 5850 3000 0    60   ~ 0
 STEP2
 Text Label 5850 1750 0    60   ~ 0
 nFAULT1
@@ -372,13 +373,13 @@ Text Label 5850 1550 0    60   ~ 0
 DIR1
 Text Label 5850 1450 0    60   ~ 0
 STEP1
-Text Label 3150 3500 0    60   ~ 0
-STEP4
-Text Label 3150 3400 0    60   ~ 0
-STEP3
-Text Label 3150 3300 0    60   ~ 0
-STEP2
 Text Label 3150 3100 0    60   ~ 0
+STEP4
+Text Label 3150 3300 0    60   ~ 0
+STEP3
+Text Label 3150 3400 0    60   ~ 0
+STEP2
+Text Label 3150 3500 0    60   ~ 0
 STEP1
 Text Label 1000 3500 0    60   ~ 0
 PIN1
@@ -1159,12 +1160,12 @@ Connection ~ 3450 850
 $Comp
 L Earth #PWR027
 U 1 1 56065958
-P 3200 1000
-F 0 "#PWR027" H 3200 750 50  0001 C CNN
-F 1 "Earth" H 3200 850 50  0001 C CNN
-F 2 "" H 3200 1000 60  0000 C CNN
-F 3 "" H 3200 1000 60  0000 C CNN
-	1    3200 1000
+P 3200 1100
+F 0 "#PWR027" H 3200 850 50  0001 C CNN
+F 1 "Earth" H 3200 950 50  0001 C CNN
+F 2 "" H 3200 1100 60  0000 C CNN
+F 3 "" H 3200 1100 60  0000 C CNN
+	1    3200 1100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -1354,4 +1355,15 @@ Wire Wire Line
 	8350 900  8350 1150
 Wire Wire Line
 	8350 1150 8450 1150
+$Comp
+L CONN_01X02 P21
+U 1 1 562419D1
+P 3400 1050
+F 0 "P21" H 3400 1200 50  0000 C CNN
+F 1 "CONN_01X02" V 3500 1050 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x02" H 3400 1050 60  0001 C CNN
+F 3 "" H 3400 1050 60  0000 C CNN
+	1    3400 1050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
